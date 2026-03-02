@@ -1,0 +1,63 @@
+{
+  "student_metadata": {
+    "name": "GANGADHAR YADAV",
+    "roll_number": "230038",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part A",
+    "submission_date": "2026-03-02"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "Perplexity",
+      "model": "GEMINI 3.1 PRO",
+      "provider": "Perplexity"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-02",
+      "tool_name": "Perplexity",
+      "model": "GEMINI 3.1 PRO",
+      "purpose": "Finding papers matching strict exam criteria",
+      "prompt": "This is how my professor is conducting exams for advance machine learning course can you help me choose the research paper based on the given instructions in pdf",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Helped identify three initial paper options that strictly followed the year, venue, and algorithm constraints.",
+      "student_verification": "Verified the suggested papers against the CORE A* venue list and 2009-2012 date range requirements in the PDF.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-02",
+      "tool_name": "Perplexity",
+      "model": "Perplexity AI",
+      "purpose": "Final verification of the chosen paper",
+      "prompt": "Multiple Incremental Decremental Learning of Support Vector Machines (Karasuyama, Takeuchi) — NeurIPS 2009. Does this follow all criteria? If yes then give all details"
+      "llm_response_used": "Yes",
+      "how_it_helped": "Confirmed final eligibility and generated the exact details needed for the Google Form submission.",
+      "student_verification": "Verified the method aligns with the 'SVM, kernel methods, or variants' mandatory requirement.",
+      "confidence_level": 5
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 4,
+      "prompt": "Multiple Incremental Decremental Learning of Support Vector Machines (Karasuyama, Takeuchi) — NeurIPS 2009. Does this follow all criteria if yes, then give all details"
+      "why_important": "This was the most critical prompt as it secured my final paper choice and ensured it strictly met the computational feasibility and algorithmic alignment rules before locking it in."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 1,
+      "prompt": "This is how my professor is conducting exams for advance machine learning course. Can you help me choose the research paper based on the given instructions in pdf"
+      "why_important": "Set the baseline for my search by filtering out hundreds of invalid papers and focusing only on CPU-feasible 2009-2012 CORE A* papers."
+    }
+  ],
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Part A.",
+    "understanding_acknowledged": true,
+    "signature": "YOUR NAME HERE",
+    "date": "2026-03-02"
+  }
+}
