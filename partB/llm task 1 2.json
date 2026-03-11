@@ -1,0 +1,20 @@
+{
+  "student_metadata": {
+    "name": "Gangadhar Yadav",
+    "roll_number": "230038",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part B",
+    "task_tag": "Task 1.2",
+    "submission_date": "2026-03-12"
+  },
+  "llm_tools_used": [],
+  "full_llm_interaction_log": [],
+  "top_5_prompts": [],
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Task 1.2. No LLM was used for this task.",
+    "understanding_acknowledged": true,
+    "signature": "Gangadhar Yadav",
+    "date": "2026-03-12"
+  }
+}
